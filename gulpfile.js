@@ -154,11 +154,11 @@ gulp.task('build_js', () => {
 
 
 gulp.task('js',
-	gulp.series(
+	gulp.parallel(
 		'libs_js',
 		'dev_js'
-	)
-);
+));
+
 
 gulp.task('html', () => {
 	return gulp
