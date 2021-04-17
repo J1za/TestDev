@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'GilroyUltraLight';
+    src: url('/fonts/Gilroy-UltraLight.eot');
+    src: url('/fonts/Gilroy-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gilroy-UltraLight.woff2') format('woff2'),
+        url('/fonts/Gilroy-UltraLight.woff') format('woff'),
+        url('/fonts/Gilroy-UltraLight.ttf') format('truetype'),
+        url('/fonts/Gilroy-UltraLight.svg#Gilroy-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroySemibold';
+    src: url('/fonts/Gilroy-Semibold.eot');
+    src: url('/fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gilroy-Semibold.woff2') format('woff2'),
+        url('/fonts/Gilroy-Semibold.woff') format('woff'),
+        url('/fonts/Gilroy-Semibold.ttf') format('truetype'),
+        url('/fonts/Gilroy-Semibold.svg#Gilroy-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyBlack';
+    src: url('/fonts/Gilroy-Black.eot');
+    src: url('/fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gilroy-Black.woff2') format('woff2'),
+        url('/fonts/Gilroy-Black.woff') format('woff'),
+        url('/fonts/Gilroy-Black.ttf') format('truetype'),
+        url('/fonts/Gilroy-Black.svg#Gilroy-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroThin';
+    src: url('/fonts/Gilroy-Thin.eot');
+    src: url('/fonts/Gilroy-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gilroy-Thin.woff2') format('woff2'),
+        url('/fonts/Gilroy-Thin.woff') format('woff'),
+        url('/fonts/Gilroy-Thin.ttf') format('truetype'),
+        url('/fonts/Gilroy-Thin.svg#Gilroy-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/Gilroy-Regular.eot');
+    src: url('/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('/fonts/Gilroy-Regular.woff') format('woff'),
+        url('/fonts/Gilroy-Regular.ttf') format('truetype'),
+        url('/fonts/Gilroy-Regular.svg#Gilroy-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyLight';
+    src: url('/fonts/Gilroy-Light.eot');
+    src: url('/fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gilroy-Light.woff2') format('woff2'),
+        url('/fonts/Gilroy-Light.woff') format('woff'),
+        url('/fonts/Gilroy-Light.ttf') format('truetype'),
+        url('/fonts/Gilroy-Light.svg#Gilroy-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyBold';
+    src: url('/fonts/Gilroy-Bold.eot');
+    src: url('/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('/fonts/Gilroy-Bold.woff') format('woff'),
+        url('/fonts/Gilroy-Bold.ttf') format('truetype'),
+        url('/fonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyLightItalic';
+    src: url('/fonts/Gilroy-LightItalic.eot');
+    src: url('/fonts/Gilroy-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gilroy-LightItalic.woff2') format('woff2'),
+        url('/fonts/Gilroy-LightItalic.woff') format('woff'),
+        url('/fonts/Gilroy-LightItalic.ttf') format('truetype'),
+        url('/fonts/Gilroy-LightItalic.svg#Gilroy-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyExtrabold';
+    src: url('/fonts/Gilroy-Extrabold.eot');
+    src: url('/fonts/Gilroy-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gilroy-Extrabold.woff2') format('woff2'),
+        url('/fonts/Gilroy-Extrabold.woff') format('woff'),
+        url('/fonts/Gilroy-Extrabold.ttf') format('truetype'),
+        url('/fonts/Gilroy-Extrabold.svg#Gilroy-Extrabold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paladins 3D';
+    src: url('/fonts/Paladins3D.eot');
+    src: url('/fonts/Paladins3D.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Paladins3D.woff2') format('woff2'),
+        url('/fonts/Paladins3D.woff') format('woff'),
+        url('/fonts/Paladins3D.ttf') format('truetype'),
+        url('/fonts/Paladins3D.svg#Paladins3D') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paladins Gradient';
+    src: url('/fonts/PaladinsGradient.eot');
+    src: url('/fonts/PaladinsGradient.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/PaladinsGradient.woff2') format('woff2'),
+        url('/fonts/PaladinsGradient.woff') format('woff'),
+        url('/fonts/PaladinsGradient.ttf') format('truetype'),
+        url('/fonts/PaladinsGradient.svg#PaladinsGradient') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paladins Laser';
+    src: url('/fonts/PaladinsLaser.eot');
+    src: url('/fonts/PaladinsLaser.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/PaladinsLaser.woff2') format('woff2'),
+        url('/fonts/PaladinsLaser.woff') format('woff'),
+        url('/fonts/PaladinsLaser.ttf') format('truetype'),
+        url('/fonts/PaladinsLaser.svg#PaladinsLaser') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paladins';
+    src: url('/fonts/Paladins.eot');
+    src: url('/fonts/Paladins.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Paladins.woff2') format('woff2'),
+        url('/fonts/Paladins.woff') format('woff'),
+        url('/fonts/Paladins.ttf') format('truetype'),
+        url('/fonts/Paladins.svg#Paladins') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paladins Straight';
+    src: url('/fonts/PaladinsStraight.eot');
+    src: url('/fonts/PaladinsStraight.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/PaladinsStraight.woff2') format('woff2'),
+        url('/fonts/PaladinsStraight.woff') format('woff'),
+        url('/fonts/PaladinsStraight.ttf') format('truetype'),
+        url('/fonts/PaladinsStraight.svg#PaladinsStraight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

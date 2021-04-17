@@ -1,0 +1,102 @@
+.mega-menu{
+    background: #2E4459;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.4s ease;
+    z-index: 5;
+    opacity: 0;
+    visibility: hidden;
+    .menu-bg-slider{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        .swiper-slide{
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .menu-slider {
+        height: 100vh;
+        padding: 0 145px;
+        .swiper-slide{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .container{
+                width: 100%;
+            }
+            &__inner{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;      
+            }
+            &__title{
+                flex: 0 0 50%;
+                max-width: 50%;
+                cursor: pointer;
+               a{
+                   text-decoration: none;
+                    font-size: 42px;
+                    line-height: 59px;
+                    @include g600;
+                    text-transform: uppercase;
+                    color: rgba(255, 255, 255, 0.4);
+                    transition: all 0.4s ease;
+                    pointer-events: none;
+               }
+            }
+            &__info{
+                max-width: 620px;
+                position: relative;
+                opacity: 0;
+                transition: opacity .3s ease;
+                &-text{
+                    p{
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: #FFFFFF;
+                        @include g300;
+                    }
+                }
+                &-number{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    font-size: 500px;
+                    line-height: 619px;
+                    @include g700;
+                    display: flex;
+                    align-items: center;
+                    text-transform: uppercase;
+                    color: rgba(236, 240, 241, 0.25);
+                    
+                }
+            }
+        }
+        .swiper-slide-active{
+            .swiper-slide__info{
+                opacity: 1;
+            }
+            .swiper-slide__title{
+               a{
+                   color: #fff;
+                   font-size: 48px;
+                   pointer-events: visible;
+               }
+            }
+        }
+    }
+} 
+.mega-menu--active{
+    opacity: 1;
+    visibility: visible
+}

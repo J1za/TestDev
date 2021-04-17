@@ -1,0 +1,107 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	position: relative;
+}
+
+body {
+  @include g400;
+}
+.container{
+  max-width: 1760px;
+  padding: 0px 16px;
+  margin: 0 auto;
+}
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+button:focus,
+input:focus {
+	outline: transparent;
+}
+
+button {
+	@include no-btn;
+}
+
+button:focus,
+input:focus {
+  outline: transparent;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+
+
+.burger-menu {
+    cursor: pointer;
+    transition: transform 400ms;
+    user-select: none;
+    position: absolute;
+	  z-index: 1000;
+    right: 0;
+    &.active {
+        transform: rotate(45deg);
+    }
+    &:hover{
+      .line{
+        stroke:  #FF0A0A;
+      }
+     
+    }
+  }
+
+  .hamRotate180.active {
+    transform: rotate(180deg);
+  }
+  .line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke:#fff;
+    stroke-width:5.2;
+    stroke-linecap:round;
+    transition: .5s;
+  }
+  .burger-menu .top {
+    stroke-dasharray: 40 139;
+  }
+  .burger-menu .bottom {
+    stroke-dasharray: 40 180;
+  }
+  .burger-menu.active .top {
+    stroke-dashoffset: -98px;
+  }
+  .burger-menu.active .bottom {
+    stroke-dashoffset: -138px;
+  }
+
+  
